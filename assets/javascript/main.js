@@ -2,6 +2,6 @@ $(document).ready(function() {
     var currentState;
 
     function pickState() {
-        currentState = 
+        currentState = states[Math.floor(Math.random() * states.length)];
     }
 });

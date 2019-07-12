@@ -58,8 +58,8 @@
             <h1 class="jumbotron-heading mx-auto text-nowrap">Answer True or False for State Capital</h1>
             <p class="lead text-muted" id="question"></p>
             <p>
-              <a href="#" class="btn btn-primary my-2">True</a>
-              <a href="#" class="btn btn-primary my-2">False</a>
+              <button class="btn btn-primary my-2" id="true">True</button>
+              <button class="btn btn-primary my-2" id="false">False</button>
             </p>
           </div>
         </section>
@@ -70,20 +70,15 @@
             <div class="row">
               <div class="col-md-5">
                 <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-  
+                  <div class="card-body" id="state-info">
+                    <p class="card-text" id="state-name"></p>
+                    <p class="card-text" id="state-capital"></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-7">
                 <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-  
-                  </div>
+                  <div class="card-body" id="state-img"></div>
                 </div>
               </div>
 
@@ -91,9 +86,6 @@
         </div>
   
       </main>
-  
-
-  
   
     <!-- jQuery JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
