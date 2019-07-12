@@ -4,4 +4,9 @@ $(document).ready(function() {
     function pickState() {
         currentState = 
     }
+
+    function setStateInfo() {
+        $("#state-name").text(currentState.state);
+        $("#state-capital").text(currentState.capital);
+    }
 });
